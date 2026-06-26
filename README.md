@@ -1,5 +1,16 @@
 # Sales Analysis
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning Process](#data-cleaning-process)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results](#results)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+
 ## Project Overview
 This project aims to gain insight into the performance of an e-commerce company. We seek to understand the company's performance, identify trends and make data-driven recommendations to boost performace by analysing various aspects of the sales data. This dataset was choseen because of the layout of the data which is a great asset to practice data cleaning skills and producing good data models.
 
@@ -7,7 +18,7 @@ This project aims to gain insight into the performance of an e-commerce company.
 The primary dataset for this project is titled "amazon.csv" containing detailed information about the products, customers, pricing and reviews in the columns; product_id, product_name, category, discounted_price, actual_price, discount_percentage,,rating, rating_count, about_product, user_id, user_name, review_id, review_title, review_content, img_link, product_link.
 - This dataset was accessed on Kaggle: [Download Here](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset/data)
 
-##Tools
+## Tools
 - MS excel- For data loading, walkthrough and cleaning
 - Power BI- for Analysis and creating a report
 
@@ -58,9 +69,8 @@ Based on the analysis, we recommend the following:
 3. Improving the overall quality of the products and using that to market them.
 
 ## Limitations 
-- After spliting the columns in customer_info table by delimiter, the user_name column had one extra column (user_name.9) with a lot of nulls, blanks and less than five names, when review_id and user_id each had 8. It was removed as it was going to negatively affect the analysis. The assumption was that each comma in the rows of the aforementioned columns represented each each customer, i.e., user-id.1 = review_id.1 = user-name.1.
+- After spliting the columns in customer_info table by delimiter, the user_name column had one extra column (user_name.9) with a lot of nulls, blanks and less than five names, while review_id and user_id each had 8. It was removed as it was going to negatively affect the analysis. The assumption was that each comma in the rows of the aforementioned columns represented each each customer, i.e., user-id.1 = review_id.1 = user-name.1.
 
-## References
 
   
 
