@@ -69,7 +69,7 @@ Based on the analysis, we recommend the following:
 3. Improving the overall quality of the products and using that to market them.
 
 ## Limitations 
-- After spliting the columns in customer_info table by delimiter, the user_name column had one extra column (user_name.9) with a lot of nulls, blanks and less than five names, while review_id and user_id each had 8. It was removed as it was going to negatively affect the analysis. The assumption was that each comma in the rows of the aforementioned columns represented each each customer, i.e., user-id.1 = review_id.1 = user-name.1.
+- After splitting the columns in customer_info table by delimiter, the user_name column had one extra column (user_name.9) with a lot of nulls, blanks and less than five names, while review_id and user_id each had 8. It was removed as it was going to negatively affect the analysis. The assumption was that each comma in the rows of the aforementioned columns represented each each customer, i.e., user-id.1 = review_id.1 = user-name.1.
 
 
   
