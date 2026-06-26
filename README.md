@@ -14,6 +14,9 @@
 ## Project Overview
 This project aims to gain insight into the performance of an e-commerce company. We seek to understand the company's performance, identify trends and make data-driven recommendations to boost performace by analysing various aspects of the sales data. This dataset was choseen because of the layout of the data which is a great asset to practice data cleaning skills and producing good data models.
 
+<img width="1185" height="679" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/1662c505-1190-4e0c-9d66-10f65980143f" />
+
+
 ## Data sources
 The primary dataset for this project is titled "amazon.csv" containing detailed information about the products, customers, pricing and reviews in the columns; product_id, product_name, category, discounted_price, actual_price, discount_percentage,,rating, rating_count, about_product, user_id, user_name, review_id, review_title, review_content, img_link, product_link.
 - This dataset was accessed on Kaggle: [Download Here](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset/data)
