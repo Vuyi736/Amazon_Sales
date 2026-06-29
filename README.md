@@ -30,7 +30,7 @@ The primary dataset for this project is titled "amazon.csv" containing detailed 
 2. Unnecessary cloumns were removed
 3. Then later split into a fact table, products_info and customer_info tables.
 4. Duplicates and missing values were handled accordingly using power query.
-5. The customer_info table was special as it lists of information in each row that needed to be split into different columns and then later on, appended into one column.
+5. The customer_info table was special as it had lists of information in each row that needed to be split into different columns and then later on, appended into one column.
 - This was the moment this author discovered the `TOCOL` function in excel that turns arrays into one column, a very handy function for this type of data layout.
 6. Finally, the process ended with a sales table, a products_info and a Customer_info table keeping in mind primary keys for each table.
 
@@ -69,10 +69,10 @@ Based on the analysis, we recommend the following:
 
 1. Be more prudent with the discount rates as we made only 58% of expected revenue due to the very high discount rates.
 2. Focus on expanding stock and marketing of the best performing products.
-3. Improving the overall quality of the products and using that to market them.
+3. Increase customer satisfaction by improving the overall quality of the products, which will in turn improve the ratings given.
 
 ## Limitations 
-- After splitting the columns in customer_info table by delimiter, the user_name column had one extra column (user_name.9) with a lot of nulls, blanks and less than five names, while review_id and user_id each had 8. It was removed as it was going to negatively affect the analysis. The assumption was that each comma in the rows of the aforementioned columns represented each each customer, i.e., user-id.1 = review_id.1 = user-name.1.
+- After splitting the columns in customer_info table by delimiter, the user_name column had one extra column (user_name.9) with a lot of nulls, blanks and less than five names, while review_id and user_id each had 8. It was removed as it was going to negatively affect the analysis. The assumption was that each comma in the rows of the aforementioned columns represented each customer, i.e., user-id.1 = review_id.1 = user-name.1.
 
 
   
