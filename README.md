@@ -12,7 +12,7 @@
 - [Limitations](#limitations)
 
 ## Project Overview
-This project aims to gain insight into the performance of an e-commerce company. We seek to understand the company's performance, identify trends and make data-driven recommendations to boost performace by analysing various aspects of the sales data. This dataset was choseen because of the layout of the data which is a great asset to practice data cleaning skills and producing good data models.
+This project aims to gain insight into the performance of an e-commerce company. We seek to understand the company's performance, identify trends and make data-driven recommendations to boost performace by analysing various aspects of the sales data. This dataset was chosen because of the layout of the data which is a great asset to practice data cleaning skills and producing good data models.
 
 <img width="1185" height="679" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/1662c505-1190-4e0c-9d66-10f65980143f" />
 
@@ -27,7 +27,7 @@ The primary dataset for this project is titled "amazon.csv" containing detailed 
 
 ## Data Cleaning Process
 1. The data was initially loaded and inspected.
-2. Unnecessary cloumns were removed
+2. Unnecessary columns were removed.
 3. Then later split into a fact table, products_info and customer_info tables.
 4. Duplicates and missing values were handled accordingly using power query.
 5. The customer_info table was special as it had lists of information in each row that needed to be split into different columns and then later on, appended into one column.
@@ -67,7 +67,7 @@ e.g `Count of users = DISTINCTCOUNT(AmazonCust_info1[user_id])`
 ## Recommendations
 Based on the analysis, we recommend the following:
 
-1. Be more prudent with the discount rates as we made only 58% of expected revenue due to the very high discount rates.
+1. Be more cautious with the discount rates as we made only 58% of expected revenue due to the very high discount rates.
 2. Focus on expanding stock and marketing of the best performing products.
 3. Increase customer satisfaction by improving the overall quality of the products, which will in turn improve the ratings given.
 
