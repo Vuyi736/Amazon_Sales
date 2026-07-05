@@ -63,7 +63,6 @@ e.g `Count of users = DISTINCTCOUNT(AmazonCust_info1[user_id])`
    - Cars & Motorbike|Cars accessories
 6. The overall quality is 4.09
 
-   
 ## Recommendations
 Based on the analysis, we recommend the following:
 
