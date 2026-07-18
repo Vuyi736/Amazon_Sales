@@ -63,12 +63,16 @@ e.g `Count of users = DISTINCTCOUNT(AmazonCust_info1[user_id])`
    - Cars & Motorbike|Cars accessories
 6. The overall quality is 4.09
 
+## Insights
+- Due to the nature of the data, we are unable to tell if the discounts were only for a specific season, thus, we cannot determine if our revenue is high or low.
+- The overall rating given is 4.09 which is shows that customers are satisfied with our products.
+
 ## Recommendations
 Based on the analysis, we recommend the following:
 
-1. Be more cautious with the discount rates as we made only 58% of expected revenue due to the very high discount rates.
+1. Be more cautious with the discount rates as we made only 58% of what we could have made without the very high discount rates.
 2. Focus on expanding stock and marketing of the best performing products.
-3. Increase customer satisfaction by improving the overall quality of the products, which will in turn improve the ratings given.
+3. because customers are satisfied with our products, drive campaigns that would lead customers to recommend our store in order to increase our customer base.
 
 ## Limitations 
 - After splitting the columns in customer_info table by delimiter, the user_name column had one extra column (user_name.9) with a lot of nulls, blanks and less than five names, while review_id and user_id each had 8. It was removed as it was going to negatively affect the analysis. The assumption was that each comma in the rows of the aforementioned columns represented each customer, i.e., user-id.1 = review_id.1 = user-name.1.
