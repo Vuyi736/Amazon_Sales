@@ -65,7 +65,7 @@ e.g `Count of users = DISTINCTCOUNT(AmazonCust_info1[user_id])`
 
 ## Insights
 - Due to the nature of the data, we are unable to tell if the discounts were only for a specific season, thus, we cannot determine if our revenue is high or low.
-- The overall rating given is 4.09 which is shows that customers are satisfied with our products.
+- The overall rating given is 4.09 which shows that customers are satisfied with our products.
 
 ## Recommendations
 Based on the analysis, we recommend the following:
